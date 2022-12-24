@@ -1,0 +1,172 @@
+.border {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 30px;
+    background-color: #54d5eb;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    height: 30px;
+    background-color: #ffa400;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.block_table {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 15;
+    margin: 5px 0px 5px 0px;
+}
+
+.left_table_block {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.right_table_block {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin-left: 5px;
+}
+
+.hero {
+    display: flex;
+    flex-grow: 1;
+    background-color: #ccc;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    background-color: #9c6;
+    margin-top: 5px;
+    padding-top: 15px;
+
+}
+
+.main_content {
+    display: flex;
+    flex-grow: 3;
+    background-color: #fc3;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.extra_content {
+    display: flex;
+    flex-grow: 1;
+    background-color: #999;
+    justify-content: center;
+    margin-top: 5px;
+    padding-top: 15px;
+
+
+}
+
+.bottom_table {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.related_images {
+    display: flex;
+    background-color: #3c6;
+    flex-grow: 5;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.related_posts {
+    display: flex;
+    background-color: #fcc;
+    flex-grow: 1;
+    justify-content: center;
+    margin-left: 5px;
+    padding-top: 15px;
+
+
+}
+
+.second_table_head_and_foot_color {
+    background-color: #c99;
+}
+
+.second_table_sitebar_color {
+    background-color: #9cc;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_table_main_block {
+    display: flex;
+    flex-direction: column;
+    background-color: #c9c;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 20;
+}
+.border_color {
+    background-color: #cff;
+    width: 800px;
+    padding: 25px;
+}
+
+.thirds_table_header_and_footer_color {
+    background-color: #0c9;
+}
+
+.aside {
+    display: flex;
+    background-color: #6c6;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.aricle {
+    display: flex;
+    flex-direction: column;
+    background-color: #f93;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: flex-end; 
+}
+
+.image_block {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.image {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: #fc3;
+    justify-content: center;
+    align-items: center;
+}
