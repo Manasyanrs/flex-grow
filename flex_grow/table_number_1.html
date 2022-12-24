@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        .border {
+            display: flex;
+            width: 500px;
+            height: 500px;
+            flex-direction: column;
+        }
+
+        .header {
+            display: flex;
+            height: 30px;
+            background-color: #54d5eb;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .footer {
+            display: flex;
+            height: 30px;
+            background-color: #ffa400;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+        }
+
+        .block_table {
+            display: flex;
+            flex-direction: row;
+            flex-grow: 15;
+        }
+
+        .left_table_block {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            margin: 5px 5px 5px 0px;
+        }
+
+        .right_table_block {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 2;
+        }
+
+        .hero {
+            display: flex;
+            flex-grow: 1;
+            background-color: #ccc;
+            justify-content: center;
+            padding-top: 15px;
+
+        }
+
+        .sidebar {
+            display: flex;
+            flex-grow: 2;
+            justify-content: center;
+            background-color: #9c6;
+            margin-top: 5px;
+            padding-top: 15px;
+
+        }
+
+        .main_content {
+            display: flex;
+            flex-grow: 3;
+            background-color: #fc3;
+            justify-content: center;
+            margin-top: 5px;
+            padding-top: 15px;
+
+        }
+
+        .extra_content {
+            display: flex;
+            flex-grow: 1;
+            background-color: #999;
+            justify-content: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding-top: 15px;
+
+
+        }
+
+        .bottom_table {
+            display: flex;
+            flex-direction: row;
+            flex-grow: 2;
+        }
+
+        .related_images {
+            display: flex;
+            background-color: #3c6;
+            flex-grow: 5;
+            justify-content: center;
+            padding-top: 15px;
+
+        }
+
+        .related_posts {
+            display: flex;
+            background-color: #fcc;
+            flex-grow: 1;
+            justify-content: center;
+            margin-left: 5px;
+            padding-top: 15px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="border">
+        <div class="header"> Header</div>
+        <div class="block_table">
+            <div class="left_table_block">
+                <div class="hero">Hero</div>
+                <div class="sidebar">Sidebar</div>
+            </div>
+            <div class="right_table_block">
+                <div class="main_content">Main Content</div>
+                <div class="extra_content">Extra Content</div>
+            </div>
+        </div>
+
+        <div class="bottom_table">
+            <div class="related_images">Related Images</div>
+            <div class="related_posts">Related Posts</div>
+        </div>
+        <div class="footer"> Footer</div>
+
+    </div>
+</body>
+
+</html>
